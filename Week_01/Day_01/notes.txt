@@ -1,0 +1,43 @@
+Road map of the course.
+What are front-end and back-end ?
+What will be the editor and development environment?
+Start with HTML.
+HTML Elements
+Starting tag
+Ending tag
+Content between tags
+Doctype
+What are doctypes? 
+What doctype is used for in HTML?
+Fundamental HTML Tags:
+HTML tag
+Head tag
+Title tag
+Body tag 
+Headings
+How to create a heading in HTML?
+How many headings are in HTML?
+Why headings are essential for SEO?
+Where not to use headings?  
+Paragraphs
+<p> - creates paragraphs.
+Use <hr> tag in paragraphs.
+Use <br> tag in paragraphs.
+Use of <pre> tag.
+Text Formatting
+<b> - Bold text
+<strong> - Important text
+<i> - Italic text  
+<em> - Emphasized text
+<u> - Underline text
+<ins> - Inserted text
+<sub> - Subscript text
+<sup> - Superscript text
+<small> - Smaller text
+<big> - Bigger text
+<mark> - Marked text
+<del> - Deleted text
+Comments
+<!-- - Starting tag of comment.
+--> - Ending tag of comment.
+How to add comments inside a paragraph & why?
