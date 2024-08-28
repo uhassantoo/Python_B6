@@ -1,0 +1,23 @@
+HTML Attributes
+What are HTML attributes?
+Anchors and Hyperlinks
+<a> - link tag.
+href - link to.
+target - where to open the linked document.
+_self - Default. Opens the document in the same window/tab as it was clicked.
+_blank - Opens the document in a new window or tab.
+Use mailto: inside the href.
+Use tel: inside the href.
+Lists
+<ul> - unordered list.
+<li> - list item.
+<ol> - order list.
+<dl> - description list.
+<dt> - defines the term. 
+<dd> - tag describes each term.
+Images
+<img> - element to define an image.
+sr for an image, if it cannot be displayed.
+width and height - attributes to dc - attribute to define the URL of the image.
+alt - attribute to define an alternate textefine the size of the image.
+float - property to let the image float to the left or the right.
