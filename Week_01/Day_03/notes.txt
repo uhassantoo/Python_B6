@@ -1,0 +1,27 @@
+<table> - Defines a table.
+<tr> - Defines a row in a table.
+<th> - Defines a header cell in a table.
+<td> - Defines a cell table.
+<caption> - Defines a table caption.
+<thead> - Groups the header content in a table.
+<tbody> - Groups the body content in a table.
+<tfoot> - Groups the footer content in a table.
+<form> - element is used to create an HTML form for user input.
+<input> - element is the most used form element.
+<input> element can be displayed in many ways, depending on the type attribute.
+ <input type="text"> - Displays a single-line text input field.
+<input type="radio"> - Displays a radio button (for selecting one of many choices).
+<input type="checkbox"> - Displays a checkbox (for selecting zero or more of many choices).
+<input type="submit"> - Displays a submit button (for submitting the form).
+<input type="button"> - Displays a clickable button.
+<label> - tag defines a label for many form elements.
+<textarea> - Defines a multiline input control (text area).
+<select> - Defines a drop-down list.
+<option> - Defines an option in a drop-down list.
+<optgroup> - Defines a group of related options in a drop-down list.
+<button> - Defines a clickable button.
+<fieldset> - Groups related elements in a form.
+<legend> - Defines a caption for a <fieldset> element.
+<datalist> - Specifies a list of pre-defined options for input controls.
+<output>  - Defines the result of a calculation.
+for - attribute of the <label> tag.
