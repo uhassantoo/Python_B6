@@ -1,0 +1,25 @@
+/* #name {
+    background-color: burlywood;
+} */
+
+.para {
+    background-color: #491c12 ;
+}
+
+h2 , h3 {
+    color: green;
+}
+.green {
+    color: aqua
+    ;
+}
+
+#p1 {
+    text-align: center;
+    text-decoration: overline;
+    text-transform: capitalize;
+    line-height: 20px;
+    word-spacing: 10px;
+    text-decoration-color: blueviolet;
+    text-shadow: 2px 3px;
+}
