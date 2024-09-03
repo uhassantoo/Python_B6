@@ -1,0 +1,30 @@
+
+
+.f2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blueviolet;
+}
+
+#f1 {
+    font-size: 44px;
+}
+
+.f {
+    font-style: italic;
+    font-family: fantasy;
+    text-align: center;
+}
+
+#f3 {
+    font-weight: bolder;
+}
+#hand {
+    text-align: center;
+    font-family: 'Handjet';
+    font-weight: bold;
+    
+}
+
+#para {
+    font-family: "Playwrite CU", cursive;
+}
