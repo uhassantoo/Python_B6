@@ -1,0 +1,101 @@
+.whatsapp{
+    background-color: brown;
+    color: white;
+    height: 20px;
+    width: 20px;
+    margin:10px;
+    border: 5px solid blue;
+    padding: 50px;
+    
+    position: sticky;
+    
+    
+}
+.container {
+    width: 2000px;
+}
+/* Positin FIxed  */
+
+#position-fixed{
+    background-color: cadetblue;
+    color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+/* Z index  */
+
+.container1{
+    background-color: black;
+    height: 200px;
+    position: relative;
+}
+.box1 {
+    background-color: aqua;
+    height: 100px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    z-index: 99;
+}
+.box2 {
+    background-color: yellow;
+    height: 100px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    z-index: 1;
+}
+.box3 {
+    background-color: coral;
+    height: 100px;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    z-index: 100;;
+}
+.div1 {
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    padding: 10px;
+    color: white;
+    overflow: auto;
+   
+
+}
+.img{
+    margin: auto;
+    width: fit-content;
+}
+
+
+#box1 {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    display: inline;
+}
+#box2 {
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    display: inline-block;
+}
+/* Spcial Links */
+.social {
+    display: block;
+   width: 80px;
+}
+#sociallink1{
+    background-color: chartreuse;
+}
+#sociallink2{
+    background-color: gray
+}
+#sociallink3{
+    background-color:  cornflowerblue;
+}
+#sociallink4{
+    background-color: goldenrod;
+}
