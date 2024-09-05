@@ -1,0 +1,42 @@
+body {
+    margin : 0;
+    background-color: teal;
+
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 980px;
+    margin: auto;
+}
+
+header {
+    background-color: white;
+    height: 140px;
+    padding: 15px;
+    text-align: center;
+}
+main {
+    display: flex ;
+    height: 450px;
+    padding: 15px;
+}
+aside {
+   background-color: white;
+   width: 270px;
+   margin-right: 15px;
+   text-align: center;
+
+}
+section {
+    background-color: white;
+    flex-grow: 1;
+    text-align: center;
+}
+
+footer{
+    background-color: white;
+    height: 70px;
+    padding: 15px;
+    text-align: center;
+}
