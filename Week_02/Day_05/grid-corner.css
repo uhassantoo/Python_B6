@@ -1,0 +1,29 @@
+.container {
+    height: 500px;
+    background-color: black;
+    padding: 10px;
+    color: white;
+
+    display: grid;
+    gap: 10px;
+
+   grid-template-areas: 
+   'Box1 . Box2'
+   '.    .   . '
+   'Box3 . Box4';
+}
+.container > .box {
+    background-color: coral;
+}
+.container > #box1{
+    grid-area: Box1;
+}
+.container > #box2{
+    grid-area: Box2;
+}
+.container > #box3{
+    grid-area: Box3;
+}
+.container > #box4{
+    grid-area: Box4;
+}

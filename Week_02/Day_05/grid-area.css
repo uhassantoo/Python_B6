@@ -1,0 +1,31 @@
+.grid-container{
+    height: 500px;
+    background-color: black;
+    color: azure;
+    display: grid;
+    gap: 5px;
+     
+    grid-template-areas: 
+    'Header Header Header Header'
+    'Menu Main Main Right'
+    'Menu Footer Footer Footer ';
+    padding: 10px;
+}
+.grid-container > div {
+    background-color: coral;
+}
+.header {
+    grid-area: Header;
+}
+.menu {
+    grid-area: Menu;
+}
+.main {
+    grid-area: Main;
+}
+.right {
+    grid-area: Right;
+}
+.footer {
+    grid-area: Footer;
+}
