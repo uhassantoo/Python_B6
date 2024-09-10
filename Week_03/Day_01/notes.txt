@@ -1,0 +1,5 @@
+What is JavaScript?
+farmeworks
+Syntax
+Variables
+local and global
