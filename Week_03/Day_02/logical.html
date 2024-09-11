@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logical Operators</title>
+</head>
+
+<body>
+    <p id="p1"></p>
+<p id="p2"></p>
+<p id="p3"></p>
+<p id="p4"></p>
+<p id="p5"></p>
+
+    <script>
+        let a = 5 , b = 10
+        document.getElementById('p1').innerHTML = (a != b) && (a< b);
+        document.getElementById('p2').innerHTML =  (a>b) || (a==b);
+        document.getElementById('p3').innerHTML =  (a<b) || (a==b);
+        document.getElementById('p4').innerHTML = !(a<b)
+        document.getElementById('p5').innerHTML = !(a>b)
+       </script>
+    
+</body>
+</html>

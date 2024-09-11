@@ -8,14 +8,20 @@
 <body>
     <h1> x = 5 , y = 10 , z = ?</h1>
     <p id = 'p1'>x+y=</p>
+    <p id = 'p2'>x*y=</p>
+    <p id = 'p3'>x/y=</p>
+    <p id = 'p4'>x-y=</p>
 
 
 
     <script>
         let x = 5 , y = 10 
-        let add = x+y
+        let add = x+y , mul = x*y , div = x/y , sub = x-y
         document.getElementById('p1').innerHTML += add
-        
+        document.getElementById('p2').innerHTML += mul
+        document.getElementById('p3').innerHTML += div
+        document.getElementById('p4').innerHTML += sub
+           
     </script>
 </body>
 </html>

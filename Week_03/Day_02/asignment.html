@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Operators</title>
+</head>
+<body>
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <p id="p3"></p>
+    <p id="p4"></p>     
+    <p id="p5"></p>
+    <p id="p6"></p>
+
+
+
+    <script>
+        let x = 25 , y = 7;
+        x=y
+        document.getElementById('p1').innerHTML = x
+
+        x +=2
+        document.getElementById('p2').innerHTML = x
+        x -=2
+        document.getElementById('p3').innerHTML = x
+
+        // Modulus Operator
+        x %= 2
+        document.getElementById('p4').innerHTML = x
+    </script>
+</body>
+</html>
