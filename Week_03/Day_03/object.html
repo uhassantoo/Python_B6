@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects</title>
+</head>
+<body>
+    <p id="p1"></p>
+    <h2>Car Company Data</h2>
+    <p id="p2"></p>
+    <p id="p3"></p>
+    <script>
+        let py_std = new Object();  // Object constructor function
+        py_std.firstname = "Umer" // porperty
+        py_std.id = 20 
+        py_std.age = 26
+
+      document.getElementById('p1').innerHTML = py_std.age
+
+     // Create an Object
+     const car = {    // Object Syntax 
+        type: 'Honda',
+        model : '2024',
+        color : 'white'
+
+     }
+      let bryani = {
+        kind : "Punjabi"
+      }
+
+     // Display the data 
+      document.getElementById('p3').innerHTML = car.color
+      document.getElementById('p2').innerHTML = car.model
+
+      let std_info = {
+        firstname : 'ahmad',
+        lastname : 'imran',
+        age : 25,
+        course : 'python'
+      }
+
+      // Access the std_info
+
+      console.log(std_info);
+
+      console.log(std_info.course);
+      console.log(std_info['course'])
+      // Add new property
+
+      std_info['email'] = 'ahmad@gmail.com'
+      console.log(std_info)
+
+      // edit a property / record
+      std_info ['email'] = ''
+      console.log(std_info)
+      std_info ['age'] = '30'
+      console.log(std_info)
+
+      // key 
+      let key_obj = Object.keys(std_info)
+      console.log(key_obj)
+     // Value
+
+     let value_obj = Object.values(std_info)
+     console.log(value_obj)
+
+     // Entries of object
+     let key_value = Object.entries(std_info)
+     console.log(key_value)
+     console.log(key_value[2])
+    </script>
+</body>
+</html>

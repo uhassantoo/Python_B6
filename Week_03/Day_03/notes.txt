@@ -1,0 +1,14 @@
+Ternary Operators
+Switch (Tasks)
+Data Types
+1. Primitive Data Types
+String
+Numbers
+Boolean
+Undefiend
+Null
+Bigint
+
+2. Structural Data Types 
+Objects
+Arrays
