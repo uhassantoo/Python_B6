@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loops</title>
+</head>
+<body>
+     <h1>Loops in Js</h1>
+
+     <script>
+       // console.log("We love Pakistan")
+       // console.log("We love Pakistan")
+      // console.log("We love Pakistan")
+       // console.log("We love Pakistan")
+
+        for(let a=0 ; a<=19 ; a++){
+            console.log('We love Pakistan ')
+        }
+        // reverse loop
+        for(let a=20 ; a>=1; a--){
+            console.log('i love Pakistan ')
+        }
+        
+        let c = ['umer','ali','hassan',25]
+        console.log(c)
+       // get array length 
+        
+       let arr_length = c.length
+       console.log('length is :'+ arr_length)
+
+       // loop on array
+       for(let a= 0 ;a<arr_length; a++){
+        console.log('Index is: ' + a + 'Value of array:  ' + c[a])
+       }
+       // second method
+       for(let a =0 ; a<=2; a++){
+        console.log('Index is: ' + a + 'Value of array:  ' + c[a])
+       }
+       //let task = ['umer',25,'python']
+
+       let std_info = {
+        firstname : 'Umer',
+        lastname : 'Hassan',
+        age : 28,
+        course : 'Python',
+        batch : 'afternoon'
+       }
+       // for in can be used for both arrays and objects
+
+       for(let k in std_info){
+        console.log('Key is '+ k + ' Value is '+ std_info[k])
+       }
+
+       // With array for in loop
+       for(let a in c){
+        console.log('Index is: ' + a + 'Value of array:  ' + c[a])
+       }
+       // for of mostly used for arrays
+    d = [10,58,25,55,55]
+       for(let b of d ){
+        console.log('array is  ' + b )
+       }
+
+       // while 
+       let count = 0
+       while(count<=10){
+        console.log(count)
+        count = count + 2
+       }
+
+       // do while
+       let counter = 0
+       do {
+        console.log(counter)
+        counter++
+
+       }while(counter < 10)
+
+     // for each function on arrays
+     d.forEach (function (value){
+        console.log("Value is :" + value)
+     })
+     d.forEach (function(value,index){
+        console.log("Index is : "+ index + "Value is " + value)
+     })
+     </script>
+
+
+</body>
+</html>
