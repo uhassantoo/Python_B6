@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anonymous</title>
+</head>
+<body>
+    <script>
+        // General and Simple Function
+
+        function display(){
+            console.log('Hello python')
+
+        }
+        display()
+
+        // Function with parameter
+        function add (a,b){
+            console.log(a+b)
+        }
+        add(10,20)
+
+        // another Method
+
+        let display1 = function(){
+            console.log("Hello python2")
+        }
+
+        display1()
+
+        let show = function(a,b){
+            console.log("Anonymous Function", a+b)
+        }
+        show(2,2)
+
+
+        // Arrow Function 
+        let display2 = (a,b,c) => { console.log(a+b+c)}
+
+        display2(20,30,30)
+
+        let person = ()=> {
+            console.log("Umer Hassan")
+        }
+        person()
+
+        let mul = (a,b,c) => {
+            return a*b*c
+        }
+        let res1 = mul(2,4,5)
+        console.log(res1)
+
+        let square = (a)=> a**2 
+        
+        let res2 = square(5)
+        console.log(res2)
+
+        function check_num(a){
+            if (a<0){
+                console.log("Negative Number")
+            }
+            else if(a>0){
+                console.log('Postive Number')
+            }
+            else {
+                console.log('Number is zero')
+            }
+        }
+        check_num(-102)
+        check_num(0)
+        check_num(102)
+        // Arrow Function
+        let check_even =(a)=> {
+            if(a%2 == 0){
+                console.log('Even')
+            }
+            else {
+                console.log('odd')
+            }
+        }
+
+        check_even(2)
+        // ternary Operator with function
+
+        let even1 = (a)=> a% 2== 0 ? console.log("Even") : console.log('odd')
+
+        even1(16)
+    </script>
+</body>
+</html>

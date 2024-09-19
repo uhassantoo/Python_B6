@@ -1,0 +1,4 @@
+        // task 1
+        // Create a function that takes two numbers as input and returns the largest of the two.
+        Write a function that takes a temperature in celsius and converts it to Fahrenheit.
+        Write a program that takes the age and checks if they are eligible for voting (e.g 18 or older)
