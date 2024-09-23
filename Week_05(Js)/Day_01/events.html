@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Events</title>
+</head>
+<body>
+   <h1>
+    Common Events in Js
+   </h1>
+   <h2>Onclick</h2>
+   <button type="button" onclick="greet()">Please click Here</button>
+
+   <h3>Onkeyup</h3>
+   Enter a First Name <input type="text" id="firstname" onkeyup="keyup()" >
+   <p>My First name is: <span id="sp"></span></p>
+
+   <h3>Onmouser Over</h3>
+
+   <h1 id="mouse" onmouseover="mouseov()">Test Me Mouse Over</h1>
+
+   <h3>Overme</h3>
+   <h1 id="m">Test Mouse Over Me</h1>
+
+   <h3>Onchange Event</h3>
+   Please Enter a text <input type="text" id="name" onchange="myfun()">
+
+    <h4>Add Event Listener</h4>
+    <button id="click">Click Me With add event</button>
+     
+    <button id="click2">Click-function</button>
+
+    <button id="cc">Click Function</button>
+
+    <button onclick="this.innerHTML = Date()">This time is</button>
+    <p>Bring your mouse over</p>
+     
+    <img onmouseover="bigimg(this)" onmouseout="normal(this)" src="./smile.gif" alt="Simley" width="32" height="32">
+
+    <form onsubmit="onsub()">
+
+        Enter Your Name : <input type="text" name="fname">
+        <input type="submit" value="Submit ">
+    </form>
+
+
+    <p id="dbl_click"  ondblclick="double()">Double click this paragrapgh</p>
+
+
+   <button id="btn">Multiple Events</button>
+    
+  <form action="">
+    <input type="text" id="uname" name="uname" placeholder="Enter Your Username">
+    <input type="password" id="password" name="password" placeholder="Enter Your Password ">
+  </form>
+
+
+
+   <script src="./events.js"></script>
+</body>
+</html>
