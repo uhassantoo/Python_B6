@@ -1,0 +1,7 @@
+JavaScript Form Task
+                create a form with a dropdown menu for selecting a country.
+                 
+                depending on the selected country, dynamically show or hide fields that are 
+                specific to that country's address format. For example, if "United States" is selected, 
+                show fields for state and ZIP code; if "Canada" is selected, show fields for province 
+                and postal code.

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <style>
+        span {
+            color: red;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>User Signup</h1>
+    <form action="" id="form_user">
+        <label for="first_name">First Name</label>
+        <input type="text" name="first_name" id="name">
+        <span id="name_error"></span>
+
+        <br>
+        <label for="last_name">Last Name</label>
+        <input type="text" name="last_name" id="lname">
+        <span id="lname_error"></span>
+        <br>
+
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age">
+        <span id="age_error"></span>
+        <br>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        <span id="email_error"></span>
+        <br>
+
+        <label for="pwd">Password</label>
+        <input type="password" name="pwd" id="pwd">
+        <span id="pwd_error"></span>
+        <br>
+
+        <label for="pwd1">Confirm Password</label>
+        <input type="password" name="pwd1" id="pwd1">
+        <span id="pwd1_error"></span>
+        <br>
+
+        <label for="exp">Experience
+         <input type="radio" name="experience" value="Fresher" checked id="fresher" >Fresher
+         <input type="radio" name="experience" value="Expereinced" checked id="experienced" >Experienced
+        </label>
+        <br>
+        <hr>
+        <button>Submit</button>
+    </form>
+
+
+    <script src="./form.js"></script>
+    
+</body>
+</html>
