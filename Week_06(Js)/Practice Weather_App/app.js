@@ -19,7 +19,7 @@ searchButton.addEventListener('click', async () => {
         const apiUrl = `${apiUrlBase}${city}/EN`;
         //console.log  check api is working or not
         console.log(`API URL: ${apiUrl}`);
-        const response = await fetch(apiUrl, {
+         const response = await fetch(apiUrl, {
           method: 'GET',
           headers: {
             'X-RapidAPI-Key': apiKey,
