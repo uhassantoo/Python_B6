@@ -1,0 +1,20 @@
+Open Github
+Create a new repository
+Set repository name to project name i.e., Hello_World
+Click Create
+
+In your system/laptop/pc:
+open your project directory in terminal/cmd
+run commands
+git init
+git remote add origin ***REPOSITORY_URL***
+git branch -M main
+git add .
+git commit -am "Initial Commit"
+git push -u origin main
+
+
+Push code in existing repository
+git add .
+git commit -m "Your Message"
+git push 
