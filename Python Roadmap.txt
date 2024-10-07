@@ -1,0 +1,12 @@
+Beginners Guide to Python
+1. Introduction
+2. Python Fundamentals
+3. Python Flow Control
+4. Python Data Types
+5. Python Functions
+6. Python Files
+7. Python Exception Handling
+8. OOP Python Object & Class
+9. Python Advanced Topics
+10 Python Date and Time
+11 Additional Topics
