@@ -1,0 +1,37 @@
+Python Projects
+Group 1 (Mariam & Eman)
+Taking Screenshot using py in Python (Beginner)
+Create a digital clock using Tkinter (Advanced) / Pacman Game
+
+
+Group 2 (Mursaleen & Zain)
+
+Desktop Notifier in Python
+Loan calculator using Tkinter / Create a digital clock using Tkinter
+
+Group 3 (Balaj & Osama & Hashir)
+Build a COVID19 Vaccine Tracker Using Python / Convert emoji into text in Python
+GUI Calendar using Tkinter
+Hotel Management System
+Create a Voice Recorder using Python
+
+Group 4 (Ali & Adeel )
+
+Get Live Weather Desktop Notifications Using Python
+Instagram Bot using Python and InstaPy
+
+
+Group 5 (Abdul Rehman & Zeeshan)
+
+File Sharing App using Python
+Student Management System
+
+Due Date  08 Nov 2024
+
+Presentation Date : 08 Nov 2024
+
+
+
+
+
+
