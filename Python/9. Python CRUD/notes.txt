@@ -1,0 +1,3 @@
+What is Crud?
+What is Database?
+DBMS
