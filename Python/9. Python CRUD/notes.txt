@@ -1,3 +1,3 @@
-What is Crud?
+What is Crud? Create Read Update Delete
 What is Database?
 DBMS

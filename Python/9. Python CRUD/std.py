@@ -22,6 +22,22 @@ def add_std(id , name ,age , course, grade):
 def view_std():
     cur.execute('SELECT * FROM student')
     return cur.fetchall()
+#Update Function
+def update_std(std_id,name,age,course,grade):
+    cur.execute('UPDATE student SET name = ?, age = ?, course = ?, grade = ?  WHERE id = ?',(name,age,course,grade,std_id))
+    conn.commit()
+    print(f"Student ID {std_id} Updated Successfully")
+
+#Delete Function
+def delete_std(id):
+    cur.execute('DELETE FROM student WHERE id = ? ' ,(id,))
+    conn.commit()
+    print(f"Student ID {id} Deleted Successfully")
+    
+#Search Function
+def search_std(name):
+    cur.execute('SELECT * FROM student WHERE name LIKE ?', ('%' + name + '%'))
+    return cur.fetchall()
     
 
 #User Interface
@@ -30,6 +46,9 @@ def main():
         print('\n Student Management System')
         print('1. Add Student')
         print('2. View Students')
+        print('3. Update Students')
+        print('4. Delete Students')
+        print('5. Search Students')
         print('6. Exit')
         
         choice = input('Enter your choice:')
@@ -49,7 +68,26 @@ def main():
                     print(std)
             else:
                 print('No Student data found')
-    
+        elif choice == '3':
+            std_id = int(input('Enter the Student ID to Update:..'))
+            name = input('Enter Name..')
+            age = input('Enter age..')
+            course = input('Enter Course..')
+            grade = input('Enter grade...')
+            update_std(std_id,name,age,course,grade)
+        elif choice == '4':
+            id = int(input('Enter the student ID to delete:'))
+            delete_std(id)
+        elif choice == '5':
+            name = input('Enter the name....')
+            print('Search Details...')
+            for std in search_std(name):
+                print(std)
+        elif choice == '6':
+            print('Exit the System')
+            break
+        else:
+            print('Invalid Choice Please try again and again....')
 
 # Run the user interface
 if __name__ == "__main__":
