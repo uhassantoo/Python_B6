@@ -18,3 +18,7 @@ Push code in existing repository
 git add .
 git commit -m "Your Message"
 git push 
+
+Existing code updated
+git pull 
+git fetch
