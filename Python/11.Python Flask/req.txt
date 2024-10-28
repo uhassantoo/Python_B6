@@ -1,0 +1,11 @@
+1. Installation:
+pip install virtualenv
+2. Create 
+py -m venv venv 
+3. Activate
+venv\Scripts\activate
+4. if activation is not working
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser 
+
+5. Install Flask
+pip install flask
