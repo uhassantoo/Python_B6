@@ -1,0 +1,8 @@
+create a virualenv
+py -m venv venv
+
+Jinja Templating
+
+Variables
+if
+for

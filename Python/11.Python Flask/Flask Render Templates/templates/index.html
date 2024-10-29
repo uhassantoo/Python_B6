@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask Home File</title>
+</head>
+<body>
+    <h2>Welcome Python Flask</h2>
+    <h4>Flask : Rendering Templating</h4>
+    
+    {% block content %}
+     <ul>
+        <li><a href="./home.html"></a>Home Page</li>
+        <li><a href="/var">Variable Example</a></li>
+        <li><a href="/if">If Example</a></li>
+        <li><a href="/for">for Example</a></li>
+     </ul>
+
+
+    {% endblock %}
+ 
+</body>
+</html>
