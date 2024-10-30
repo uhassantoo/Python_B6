@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chat</title>
+</head>
+<body>
+    <h1>Chat with Gemini AI</h1>
+    <textarea  id="user_input" placeholder="Type ypur message here.... "></textarea>
+    <button id="send-button">Send</button>
+    <div id="chat-box"></div>
+    
+    <script>
+        document.getElementById('send-button').onclick = function(){
+            const message = document.getElementById('user_input').value
+
+            fetch('/chat',{
+                method : 'POST',
+                headers : {
+                    'Content-Type' : 'application/json'
+                },
+                body : JSON.stringify({message : message})
+            })
+            .then(response => response.json())
+            .then(data => {
+                const chatBox = document.getElementById('chat-box')
+                chatBox.innerHTML += `<p><strong>You: </strong> ${message}</p>`
+                chatBox.innerHTML += `<p><strong>Gemini AI: </strong> ${data.response}</p>`
+                document.getElementById('user_input').value = ''
+            })
+        }
+    </script>
+</body>
+</html>
