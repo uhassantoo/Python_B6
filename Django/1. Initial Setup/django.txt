@@ -1,0 +1,5 @@
+django-admin --version
+
+django-admin startproject (projectname)
+without django admin 
+python -m django startproject (projectname)
