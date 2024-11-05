@@ -1,0 +1,4 @@
+Urls.py (App (Pages))
+view.py
+templates
+home.html

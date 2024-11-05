@@ -1,0 +1,9 @@
+create folder named as your project such as message-board
+create virtual environment i.e., venv
+activate that environment
+install django
+create project core app using command
+django-admin startproject core .
+create app such as posts using command
+py manage.py startapp posts
+register that app in settings.py
