@@ -1,0 +1,22 @@
+django-admin --version
+
+django-admin startproject (projectname)
+without django admin 
+python -m django startproject (projectname)
+
+create a app 
+python manage.py  startapp pages
+
+
+runserver
+python manage.py runserver
+
+
+create model 
+python manage.py makemigrations posts
+
+python manage.py migrate
+
+
+create superuser
+python manage.py createsuperuser
