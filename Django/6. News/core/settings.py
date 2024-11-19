@@ -37,8 +37,15 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'accounts' #installed app
+    #3rd Party Apps
+    "crispy_forms",
+    "crispy_tailwind",
+    'accounts', #installed app
+    'pages' ,#another app
 ]
+CRISPY_ALLOWED_TEMPLATE_PACKS = "tailwind"
+
+CRISPY_TEMPLATE_PACK = "tailwind"
 AUTH_USER_MODEL = "accounts.CustomUser"#new
 
 MIDDLEWARE = [
@@ -125,3 +132,4 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 LOGIN_REDIRECT_URL = 'home'
 LOGOUT_REDIRECT_URL = 'home'
+

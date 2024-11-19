@@ -20,3 +20,5 @@ python manage.py migrate
 
 create superuser
 python manage.py createsuperuser
+
+https://django-crispy-forms.github.io/crispy-tailwind/getting_started.html#installation
