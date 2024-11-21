@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block title %} Articles {% endblock title %}
+
+{% block content %}
+   {% for article in article_list %}
+   
+   <a href="{{ article.get_absolute_url }}"><p class="font-bold text-gray-700 dark:text-gray-400"> {{ article.title }}</p></a>
+
+    <h5 class="mb-2 text-1xl font-normal tracking-tight text-gray-900 dark:text-white">By {{ article.author }} | {{ article.date }} 
+      </h5>
+    
+    <a href="#" class="block max-w-sm p-3 bg-white border border-black-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"> {{ article.body }} </a>
+    <div>
+      <button type="button" class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Edit </button> &nbsp;<button type="button" class="text-white bg-red-700 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-red-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Delete</button>
+    </div>
+
+  
+   <p>Back To <a href="{% url 'article_list' %}"></a> All Articles</p>
+   {% endfor %}
+    
+{% endblock content %}
+
+
+
+    

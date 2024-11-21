@@ -42,7 +42,10 @@ INSTALLED_APPS = [
     "crispy_tailwind",
     'accounts', #installed app
     'pages' ,#another app
+    'articles', #new app
 ]
+TIME_ZONE = 'Asia/Karachi'
+    
 CRISPY_ALLOWED_TEMPLATE_PACKS = "tailwind"
 
 CRISPY_TEMPLATE_PACK = "tailwind"
