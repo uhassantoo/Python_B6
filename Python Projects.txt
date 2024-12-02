@@ -18,7 +18,7 @@ Create a Voice Recorder using Python
 Group 4 (Ali & Adeel )
 
 Get Live Weather Desktop Notifications Using Python
-Instagram Bot using Python and InstaPy
+Instagram Bot using Python and InstaPy / Hospital Management System
 
 
 Group 5 (Abdul Rehman & Zeeshan)

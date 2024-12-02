@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Article
+from .models import Article , Comment
 
 # Register your models here.
 class ArticleAdmin(admin.ModelAdmin):
@@ -9,6 +9,10 @@ class ArticleAdmin(admin.ModelAdmin):
         'author',
         'date',
     ]
+class CommentLine(admin.StackedInline):
+    model = Comment
+    extra = 0
 
 
 admin.site.register(Article, ArticleAdmin)
+admin.site.register(Comment)
